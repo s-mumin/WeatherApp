@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(182, 182, 235);
+    font-family: "Lexend", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1{
+    margin-top: 20%;
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    padding: 10px;
+}
+form > button, input{
+margin: 10px;
+}
+i{
+    margin-top:60px;
+    font-size: 2rem;
+}
+#current-weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#current-weather > p{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+#weather-icon{
+    color: rgb(7, 6, 6);
+    margin-bottom: 30px;
+}
+
+#citySearchSubmit {
+    box-shadow: 0px 1px 0px 0px #1c1b18;
+	background-color:transparent;
+	border-radius:15px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-size:18px;
+	font-weight:bold;
+	padding:12px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+#citySearchSubmit:hover {
+	background:linear-gradient(to bottom, #e2e1de 5%, #1b1b1a00 100%);
+	background-color:#68676300;
+}
+#citySearchSubmit:active {
+	position:relative;
+	top:1px;
+}
+
+        
+        
